@@ -1,0 +1,25 @@
+# Entornos Virtuales
+venv/
+env/
+.env
+
+# Cachés de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de salida y pruebas
+outputs/
+*.wav
+*.mp3
+*.flac
+
+# Logs y trazas de error
+*.log
+
+# Carpetas Legacy / Experimentales de nuestro desarrollo
+old_f5_tts_scripts/
+
+# Binarios gigantes de FFmpeg (que los usuarios se descarguen el suyo)
+ffmpeg-master-latest-win64-gpl-shared/
+ffmpeg.zip
